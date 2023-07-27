@@ -6,7 +6,7 @@ function Allquotes() {
     const [data, setData] = useState([]);
 
     const fetchData = () => {
-        fetch("http://localhost:4500/list")
+        fetch("https://deploy-mern-backend.vercel.app/list")
             .then((response) => {
                 if (!response.ok) {
                     alert('Network response was not ok.');
