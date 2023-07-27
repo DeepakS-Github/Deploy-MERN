@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgb(0, 70, 0);
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+    height: 40px;
+}
+
+.logoText{
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.mainNav{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myText {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.tabs{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}

@@ -1,0 +1,53 @@
+.heading{
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+.container{
+    width: 50%;
+    background-color: skyblue;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px 40px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
+    width: 70%;
+}
+
+
+.content{
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+    white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;   
+  width: 100%; 
+    
+}
+
+.authorname{
+    font-size: small;
+}
+
+.button{
+    background-color: rgb(0, 70, 0);
+    color: white;
+    padding: 10px;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+}
