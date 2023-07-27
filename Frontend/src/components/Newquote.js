@@ -12,7 +12,7 @@ const Newquote = () => {
         quote: quote
       };
   
-      fetch('http://localhost:4500/create', {
+      fetch('https://deploy-mern-backend.vercel.app/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
